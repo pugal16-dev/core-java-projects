@@ -24,6 +24,20 @@ A payment processing simulator modeling Indian payment modes (UPI and Credit Car
 - **`Day3/` (Encapsulation):** `Book` and `Library` system with constructor validation and discount calculation.
 - **`Day2/` (Control Flow & Arrays):** Interactive Terminal Calculator, Weekly Expense Analyzer, Loan Simulator, and Mini Wallet Tracker.
 
+### 5. Dynamic Task Manager (`arraylist/`)
+A console-based to-do manager using Java's `ArrayList` for resizable storage and CRUD operations.
+- **Concepts:** `ArrayList<Task>`, Enhanced `for-each` loops, Auto-incrementing IDs, Input Validation.
+- **Highlights:** Supports adding, viewing, completing, and deleting tasks dynamically by ID without fixed-size array limits.
+
+### 6. Category Expense Tracker (`hashmap/`)
+A key-value expense tracking utility built on `HashMap` to aggregate and query spending by category.
+- **Concepts:** `HashMap`, Key-Value Lookups, Entry Iteration, Formatted Currency Output.
+- **Highlights:** Dynamically updates category totals and computes overall expense summaries cleanly.
+
+### 7. String Text Analyzer (`strings/`)
+A text-processing utility for inspecting and manipulating string inputs.
+- **Concepts:** `String` methods, Character Traversal, Frequency/Pattern Analysis.
+
 ## How to Run Locally
 
 **Prerequisites:** JDK 17+ installed (`java -version`).
@@ -45,4 +59,17 @@ java exceptionhandling.AtmApp
 # Run Polymorphic Payment Gateway
 javac polymorphism/*.java
 java polymorphism.PaymentApp
+
+# Run Dynamic Task Manager (ArrayList)
+javac arraylist/*.java
+java arraylist.TaskManagerApp
+
+# Run Category Expense Tracker (HashMap)
+javac hashmap/*.java
+java hashmap.ExpenseTrackerApp
+
+# Run String Text Analyzer
+javac strings/*.java
+java strings.TextAnalyzerApp
+
 ```
