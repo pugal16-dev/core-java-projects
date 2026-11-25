@@ -110,6 +110,7 @@ public class StudentManagerApp {
             }
 
         }
+        input.close();
 
     }
 }

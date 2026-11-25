@@ -54,6 +54,8 @@ public class AtmApp {
             System.out.println("==================================");
         }
 
-    }}
+    }
+    input.close();
+}
 
 }
